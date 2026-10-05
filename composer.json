@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/psy-psysh",
+    "description": "Tyhp type definitions for psy/psysh 0.12.24.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "0.12.24",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/psy-psysh-impl": "~0.12.24.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/psy-psysh-impl"
+        }
+    }
+}
